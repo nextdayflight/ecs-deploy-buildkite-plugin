@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -euxo pipefail
 
 cluster=${BUILDKITE_PLUGIN_ECS_DEPLOY_CLUSTER?}
 task_family=${BUILDKITE_PLUGIN_ECS_DEPLOY_TASK_FAMILY?}
